@@ -14,7 +14,7 @@
 | Loại sản phẩm | Web quản lý |
 | Ý tưởng gốc | 5.3 · Quản lý công việc / dự án (`ZDOCS/02-KE-HOACH/DANH-SACH-Y-TUONG.md`) |
 | Người phụ trách | |
-| Trạng thái | Mới tạo từ khuôn mẫu |
+| Trạng thái | Có tài liệu nghiệp vụ (SRS, use case, kịch bản demo, kịch bản kiểm thử), chưa code |
 
 ## 2. Vấn đề của khách hàng
 
@@ -44,7 +44,9 @@
 | :--- | :--- | :--- | :---: |
 | `System` | Đăng nhập, tài khoản, vai trò, cài đặt | Có sẵn | — |
 | `Work` | Dự án, thành viên | `/projects` | P1 |
+| `Work` | Tổng quan dự án, thành viên dự án | `/projects/[id]` | P1 |
 | `Work` | Bảng Kanban | `/projects/[id]/board` | P1 |
+| `Work` | Dạng danh sách | `/projects/[id]/list` | P2 |
 | `Work` | Công việc, checklist | `/tasks/[id]` | P1 |
 | `Work` | Bình luận, đính kèm | `/tasks/[id]` | P2 |
 | `Work` | Dạng lịch | `/projects/[id]/calendar` | P2 |
